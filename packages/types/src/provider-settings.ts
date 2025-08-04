@@ -12,6 +12,7 @@ export const providerNames = [
 	"claude-code",
 	"glama",
 	"openrouter",
+	"deepinfra",
 	"bedrock",
 	"vertex",
 	"openai",
@@ -122,6 +123,12 @@ const openRouterSchema = baseProviderSettingsSchema.extend({
 	openRouterBaseUrl: z.string().optional(),
 	openRouterSpecificProvider: z.string().optional(),
 	openRouterUseMiddleOutTransform: z.boolean().optional(),
+})
+
+const deepInfraSchema = baseProviderSettingsSchema.extend({
+	deepInfraApiKey: z.string().optional(),
+	deepInfraModelId: z.string().optional(),
+	deepInfraBaseUrl: z.string().optional(),
 })
 
 const bedrockSchema = apiModelIdProviderModelSchema.extend({
@@ -323,6 +330,7 @@ export const providerSettingsSchemaDiscriminated = z.discriminatedUnion("apiProv
 	claudeCodeSchema.merge(z.object({ apiProvider: z.literal("claude-code") })),
 	glamaSchema.merge(z.object({ apiProvider: z.literal("glama") })),
 	openRouterSchema.merge(z.object({ apiProvider: z.literal("openrouter") })),
+	deepInfraSchema.merge(z.object({ apiProvider: z.literal("deepinfra") })),
 	bedrockSchema.merge(z.object({ apiProvider: z.literal("bedrock") })),
 	vertexSchema.merge(z.object({ apiProvider: z.literal("vertex") })),
 	openAiSchema.merge(z.object({ apiProvider: z.literal("openai") })),
@@ -363,6 +371,7 @@ export const providerSettingsSchema = z.object({
 	...claudeCodeSchema.shape,
 	...glamaSchema.shape,
 	...openRouterSchema.shape,
+	...deepInfraSchema.shape,
 	...bedrockSchema.shape,
 	...vertexSchema.shape,
 	...openAiSchema.shape,
@@ -404,6 +413,7 @@ export const MODEL_ID_KEYS: Partial<keyof ProviderSettings>[] = [
 	"apiModelId",
 	"glamaModelId",
 	"openRouterModelId",
+	"deepInfraModelId",
 	"openAiModelId",
 	"ollamaModelId",
 	"lmStudioModelId",

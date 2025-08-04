@@ -63,6 +63,7 @@ export const PROVIDERS = [
 	{ value: "cerebras", label: "Cerebras" },
 	{ value: "virtual-quota-fallback", label: "Virtual Quota Fallback" },
 	// kilocode_change end
+	{ value: "deepinfra", label: "DeepInfra" },
 	{ value: "deepseek", label: "DeepSeek" },
 	{ value: "moonshot", label: "Moonshot" },
 	{ value: "openai-native", label: "OpenAI" },

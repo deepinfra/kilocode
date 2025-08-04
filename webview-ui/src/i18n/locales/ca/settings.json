@@ -260,6 +260,8 @@
 		"anthropicUseAuthToken": "Passar la clau API d'Anthropic com a capçalera d'autorització en lloc de X-Api-Key",
 		"chutesApiKey": "Clau API de Chutes",
 		"getChutesApiKey": "Obtenir clau API de Chutes",
+		"deepInfraApiKey": "Clau API DeepInfra",
+		"getDeepInfraApiKey": "Obtenir clau API DeepInfra",
 		"deepSeekApiKey": "Clau API de DeepSeek",
 		"getDeepSeekApiKey": "Obtenir clau API de DeepSeek",
 		"doubaoApiKey": "Clau API de Doubao",

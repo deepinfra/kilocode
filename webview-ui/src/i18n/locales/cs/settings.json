@@ -260,6 +260,8 @@
 		"anthropicUseAuthToken": "Předávat klíč API Anthropic jako hlavičku Authorization místo X-Api-Key",
 		"chutesApiKey": "Klíč API Chutes",
 		"getChutesApiKey": "Získat klíč API Chutes",
+		"deepInfraApiKey": "Klíč API DeepInfra",
+		"getDeepInfraApiKey": "Získat klíč API DeepInfra",
 		"deepSeekApiKey": "Klíč API DeepSeek",
 		"getDeepSeekApiKey": "Získat klíč API DeepSeek",
 		"doubaoApiKey": "Klíč API Doubao",

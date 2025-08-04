@@ -262,6 +262,8 @@
 		"anthropicUseAuthToken": "Передавати ключ API Anthropic як заголовок Authorization замість X-Api-Key",
 		"chutesApiKey": "Ключ API Chutes",
 		"getChutesApiKey": "Отримати ключ API Chutes",
+		"deepInfraApiKey": "Ключ API DeepInfra",
+		"getDeepInfraApiKey": "Отримати ключ API DeepInfra",
 		"deepSeekApiKey": "Ключ API DeepSeek",
 		"getDeepSeekApiKey": "Отримати ключ API DeepSeek",
 		"moonshotApiKey": "Ключ API Moonshot",

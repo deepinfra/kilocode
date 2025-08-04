@@ -4,6 +4,7 @@ export { AwsBedrockHandler } from "./bedrock"
 export { CerebrasHandler } from "./cerebras" // kilocode_change
 export { ChutesHandler } from "./chutes"
 export { ClaudeCodeHandler } from "./claude-code"
+export { DeepInfraHandler } from "./deepinfra"
 export { DeepSeekHandler } from "./deepseek"
 export { DoubaoHandler } from "./doubao"
 export { MoonshotHandler } from "./moonshot"

@@ -260,6 +260,8 @@
 		"anthropicUseAuthToken": "X-Api-Key के बजाय Anthropic API कुंजी को Authorization हेडर के रूप में पास करें",
 		"chutesApiKey": "Chutes API कुंजी",
 		"getChutesApiKey": "Chutes API कुंजी प्राप्त करें",
+		"deepInfraApiKey": "DeepInfra API कुंजी",
+		"getDeepInfraApiKey": "DeepInfra API कुंजी प्राप्त करें",
 		"deepSeekApiKey": "DeepSeek API कुंजी",
 		"getDeepSeekApiKey": "DeepSeek API कुंजी प्राप्त करें",
 		"doubaoApiKey": "डौबाओ API कुंजी",

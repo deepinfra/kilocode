@@ -256,6 +256,8 @@
 		"anthropicUseAuthToken": "X-Api-Key 대신 Authorization 헤더로 Anthropic API 키 전달",
 		"chutesApiKey": "Chutes API 키",
 		"getChutesApiKey": "Chutes API 키 받기",
+		"deepInfraApiKey": "DeepInfra API 키",
+		"getDeepInfraApiKey": "DeepInfra API 키 받기",
 		"deepSeekApiKey": "DeepSeek API 키",
 		"getDeepSeekApiKey": "DeepSeek API 키 받기",
 		"doubaoApiKey": "Doubao API 키",

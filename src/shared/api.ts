@@ -128,6 +128,7 @@ export const cerebrasDefaultModelId: CerebrasModelId = "qwen-3-coder-480b-free"
 
 const routerNames = [
 	"openrouter",
+	"deepinfra",
 	"requesty",
 	"glama",
 	"unbound",
@@ -231,6 +232,7 @@ export const getModelMaxOutputTokens = ({
 
 export type GetModelsOptions =
 	| { provider: "openrouter"; apiKey?: string; baseUrl?: string } // kilocode_change: add apiKey, baseUrl
+	| { provider: "deepinfra"; apiKey?: string }
 	| { provider: "glama" }
 	| { provider: "requesty"; apiKey?: string }
 	| { provider: "unbound"; apiKey?: string }

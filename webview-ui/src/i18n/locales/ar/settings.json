@@ -260,6 +260,8 @@
 		"anthropicUseAuthToken": "إرسال المفتاح في ترويسة Authorization بدل X-Api-Key",
 		"chutesApiKey": "مفتاح Chutes",
 		"getChutesApiKey": "احصل على مفتاح Chutes",
+		"deepInfraApiKey": "مفتاح DeepInfra",
+		"getDeepInfraApiKey": "احصل على مفتاح DeepInfra",
 		"deepSeekApiKey": "مفتاح DeepSeek",
 		"getDeepSeekApiKey": "احصل على مفتاح DeepSeek",
 		"doubaoApiKey": "مفتاح Doubao",

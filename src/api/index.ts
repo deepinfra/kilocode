@@ -17,6 +17,7 @@ import {
 	GeminiHandler,
 	GeminiCliHandler, // kilocode_change
 	OpenAiNativeHandler,
+	DeepInfraHandler,
 	DeepSeekHandler,
 	MoonshotHandler,
 	MistralHandler,
@@ -107,6 +108,8 @@ export function buildApiHandler(configuration: ProviderSettings): ApiHandler {
 		// kilocode_change end
 		case "openai-native":
 			return new OpenAiNativeHandler(options)
+		case "deepinfra":
+			return new DeepInfraHandler(options)
 		case "deepseek":
 			return new DeepSeekHandler(options)
 		case "doubao":

@@ -68,6 +68,12 @@ export const getModels = async (options: GetModelsOptions): Promise<ModelRecord>
 				})
 				// kilocode_change end
 				break
+			case "deepinfra":
+				models = await getOpenRouterModels({
+					openRouterBaseUrl: "https://api.deepinfra.com/v1/openai",
+					headers: options.apiKey ? { Authorization: `Bearer ${options.apiKey}` } : undefined,
+				})
+				break
 			case "requesty":
 				// Requesty models endpoint requires an API key for per-user custom policies
 				models = await getRequestyModels(options.apiKey)
