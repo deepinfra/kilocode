@@ -32,6 +32,7 @@ type ModelIdKey = keyof Pick<
 	ProviderSettings,
 	| "glamaModelId"
 	| "openRouterModelId"
+	| "deepInfraModelId"
 	| "unboundModelId"
 	| "requestyModelId"
 	| "openAiModelId"

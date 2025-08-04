@@ -23,6 +23,7 @@ describe("Model Validation Functions", () => {
 				outputPrice: 5.0,
 			},
 		},
+		deepinfra: {},
 		"kilocode-openrouter": {
 			"valid-model": {
 				maxTokens: 8192,
